@@ -32,3 +32,7 @@ terraform plan
 terraform apply
 terraform show
 ```
+
+## TO-DO
+
+Make EC2 install GIT automatically on startup
