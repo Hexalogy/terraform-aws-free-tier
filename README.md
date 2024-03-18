@@ -19,3 +19,16 @@ Spin up AWS EC2 free tier using Terraform in seconds
 
 4. Configure AWS Credentials via Powershell
 `aws Configure`
+
+3. Configure AWS Credentials
+Set the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` environment variables with your AWS credentials
+
+## Usage
+
+In the same directory as your `main.tf` file, run the following command to initialize Terraform:
+```
+terraform init
+terraform plan
+terraform apply
+terraform show
+```
